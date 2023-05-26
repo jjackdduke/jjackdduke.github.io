@@ -116,15 +116,17 @@ h4 {
 /* amount */
 
 .amount {
-  /* position: relative; */
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
   width: 1280px;
   margin: auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.amount_img {
-  width: 50px;
+.amount img {
+  width: auto;
   height: 50px;
 }
 
@@ -134,9 +136,11 @@ h4 {
   justify-content: space-around;
   flex: 1;
   background: #fff;
+  padding: 10px;
 }
 
 .amount > li > div {
+  padding: 5px;
   text-align: center;
 }
 
@@ -153,7 +157,6 @@ h4 {
 .main_text0 {
   width: 100%;
   height: 601px;
-  margin-top: -132px;
   background: #f1f2f3;
 }
 .main_text0 > h1 {
