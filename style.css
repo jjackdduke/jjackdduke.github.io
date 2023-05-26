@@ -58,8 +58,9 @@ h4 {
 }
 
 .header {
-  width: 1280px;
+  /* width: 1280px; */
   margin: auto;
+  padding-right: 80px;
 }
 
 .search_area {
@@ -208,6 +209,7 @@ h4 {
   font-size: 12px;
   line-height: 30px;
   margin: 25px auto;
+  cursor: pointer;
 }
 
 /* main_text1 */
