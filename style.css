@@ -16,6 +16,11 @@
   color: #000;
 }
 
+.wrap {
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
 h1 {
   font-size: 48px;
   font-weight: 100;
@@ -194,7 +199,7 @@ h4 {
   letter-spacing: -1px;
 }
 
-.icons img {
+.icons_img {
   width: 100%;
   height: auto;
 }
@@ -224,15 +229,17 @@ h4 {
 }
 
 .service {
-  width: 1200px;
   display: flex;
-  margin: 49px auto;
+  width: 800px;
   height: 427px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 }
 
 .food_photo img {
-  width: 500px;
-  height: 500px;
+  width: auto;
+  height: 300px;
 }
 
 .service > .contents2 {
@@ -241,6 +248,45 @@ h4 {
 
 .service > .contents2 > h2 {
   margin-bottom: 27px;
+}
+
+/* 캐러셀 */
+.sub_title {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.carouselcontaioner {
+  overflow: hidden;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner > div {
+  margin: 20px;
+  width: 400px;
+}
+
+.inner > img {
+  width: auto;
+  height: 400px;
+}
+
+.carouselcontaioner > .arrow_btn {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* main_text2 */
